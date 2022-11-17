@@ -1,0 +1,18 @@
+{
+  "name": "customers-cli",
+  "version": "1.0.0",
+  "description": "a nodejs command line project",
+  "main": "app.js",
+  "preferGlobal": true,
+  "bin": "./command.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "siyfa",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "inquirer": "^4.0.0",
+    "mongoose": "^6.7.2"
+  }
+}
